@@ -1,6 +1,7 @@
 # Parallel Flagging ɘϱnɘvɘЯ [_snakeCTF 2025 Finals_]
 
 **Category**: reversing
+**Author**: parallel
 
 ## Description
 
