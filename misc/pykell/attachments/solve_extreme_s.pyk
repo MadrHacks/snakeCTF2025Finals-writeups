@@ -1,0 +1,6 @@
+sSs=\s,sS ->\ss ->(s,ss,sS)
+sSSsS=\s ->((s,sssSs,{(ssSSS,(sSsss,(\sS ->(sS,\ssS,sSS ->ssS),s)));(sssss,(\sS ->(sS,\ssS,sSS ->sSS),s))}) ,(\sS,sSS ->(sssSS,((sssSS,sS),sssSs,(sssSS,sSS)))), sSssS)
+sSssS = force sSs
+sSs = force ssssS
+(sssss,(sSSsS,(sSssS,1)))
+(ssSSS, (sSsss, 10))
