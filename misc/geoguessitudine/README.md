@@ -1,6 +1,7 @@
 # GeoGuessitUdine [_snakeCTF 2025 Finals_]
 
 **Category**: misc
+**Author**: michelelizzit
 
 ## Description
 

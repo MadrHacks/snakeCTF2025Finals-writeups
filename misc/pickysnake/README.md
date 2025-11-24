@@ -1,6 +1,7 @@
 # Picky Snake [_snakeCTF 2025 Finals_]
 
-**Category**: web
+**Category**: misc
+**Author**: michelelizzit
 
 ## Description
 
