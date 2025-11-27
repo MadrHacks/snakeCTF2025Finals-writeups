@@ -89,7 +89,7 @@ Important to note is that the returned data from "steal_profile" is in the form
 ### Third step: Getting the flag
 
 Once the functionality of the binary is understood, the objective of the player is to extract the data inside the c2 server.
-From the Firefox commands, we can see that there is an SQL injection vulnerability; by acting as a node of the botnet
+From the Firefox commands, we can see that there is an SQL injection vulnerability; by acting as a node of the botnet (which requires waiting the right timing and responding appropriately)
 we can wait for the firefox command to be sent and exploit the vulnerability to extract the database contents.
 
 When a `steal_profile` command is sent, we can reply with a payload like:
@@ -97,3 +97,5 @@ When a `steal_profile` command is sent, we can reply with a payload like:
 INSERT INTO profiles (name) SELECT tbl_name FROM sqlite_master WHERE type='table'; --
 ```
 and when the server sends back the data of the profile to steal the cookies we will receive the database schema and proceed in dumping the db where we can find the flag.
+
+A solve script is [here](./attachments/solve.py).
