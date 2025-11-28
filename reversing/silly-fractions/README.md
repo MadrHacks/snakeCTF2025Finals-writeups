@@ -63,6 +63,6 @@ def decrypt(block, key, rounds=10):
 	return state
 ```
 
-In solver.zip you can find a sample solve scripts which extracts the key and encrypted flag from any given checker.frac, decrypts the flag and prints it out to screen - normally you only need to extract the specific key and encrypted flag once, so there are some extra steps which may normally omitted.
+In solver.zip you can find a sample solve script which extracts the key and encrypted flag for any given checker.frac, decrypts the flag and prints it out to screen - normally you only need to extract the key and encrypted flag of your specific checker.frac, so there are some extra steps which may normally be omitted.
 
-Hope you had fun! Thank you for playing :3
+Hope you had fun! Thanks for playing :3
