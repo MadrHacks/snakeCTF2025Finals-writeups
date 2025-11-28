@@ -1,4 +1,4 @@
-# Shellcode Wannabe [*snakeCTF 2025 Finals*]
+# Shellcode Wannabe [_snakeCTF 2025 Finals_]
 
 **Category**: pwn
 **Author**: bugigio
