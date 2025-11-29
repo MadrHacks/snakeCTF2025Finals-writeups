@@ -1,7 +1,7 @@
 # PizzaBun [_snakeCTF 2025 Finals_]
 
 **Category**: Crypto
-**Author**: crisis82
+**Author**: Crisis82
 
 ## Description
 
